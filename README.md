@@ -11,7 +11,8 @@ CAG/
 ├── cagAPI.py
 ├── config.ini
 ├── Data
-│   └── YOUR_OWN_DATA.txt
+|   ├── YOUR_OWN_DATA_01.txt
+│   └── YOUR_OWN_DATA_02.txt
 ├── docker-compose.yaml
 ├── Dockerfile
 ├── README.md
