@@ -1,0 +1,15 @@
+services:
+  cag_api: 
+    container_name: cag_api 
+    image: localhost/cag_api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python /app/CAG/cagAPI.py
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=0 
+    volumes:
+    - YOUR_OWN_FOLDER:app/CAG
+    - YOUR_OWN_FOLDER/Data:app/CAG/Data
+    ports:
+    - "59488:59488"
