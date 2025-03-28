@@ -1,8 +1,8 @@
 # CAG_API
 
 Development references come from the following two projects:  
-1. [hhhuang](https://github.com/hhhuang/CAG/tree/main)
-2. [ronantakizawa](https://github.com/ronantakizawa/cacheaugmentedgeneration)
+1. [hhhuang/CAG](https://github.com/hhhuang/CAG/tree/main)
+2. [ronantakizawa/cacheaugmentedgeneration](https://github.com/ronantakizawa/cacheaugmentedgeneration)
 
 ## Project
 
